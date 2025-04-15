@@ -15,7 +15,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-
 /* comnon */
 
 a {
@@ -53,7 +52,7 @@ a {
 }
 
 .avatar-text {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 0.7rem;
     font-weight: 450;
@@ -61,19 +60,29 @@ a {
     letter-spacing: -0.02em;
 }
 
-
 /*========== header ========== */
 
-.header {
+.fix-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
     position: relative;
     background: #e6f0ff;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -153,7 +162,6 @@ a {
     right: calc((100vw - 1110px) / 2 - 100px);
 }
 
-
 /*============= client =============== */
 
 .clients {
@@ -191,9 +199,8 @@ a {
 }
 
 .clients .images a:hover {
-    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
 }
-
 
 /*============= guides =============== */
 
@@ -276,7 +283,6 @@ a {
 .guide-cta .btn {
     min-width: 170px;
 }
-
 
 /*========== featured ========== */
 
@@ -380,7 +386,6 @@ a {
     margin-left: 0;
 }
 
-
 /*========== stats ========== */
 
 .stats {
@@ -432,7 +437,7 @@ a {
 
 .stats-trend .desc {
     margin-top: 8px;
-    color: #A7A7A7;
+    color: #a7a7a7;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5;
@@ -441,7 +446,7 @@ a {
 .stats-trend .separate {
     height: 1.2px;
     margin-top: 25px;
-    background: #E9E9E9;
+    background: #e9e9e9;
 }
 
 .stats .avatar-block {
@@ -468,27 +473,27 @@ a {
 }
 
 .stats .avatar-1 {
-    background: #1F3BB1;
+    background: #1f3bb1;
 }
 
 .stats .avatar-2 {
-    background: #24D6D9;
+    background: #24d6d9;
 }
 
 .stats .avatar-3 {
-    background: #F8C120;
+    background: #f8c120;
 }
 
 .stats .avatar-4 {
-    background: #F97F6B;
+    background: #f97f6b;
 }
 
 .stats .avatar-5 {
-    background: #73A242;
+    background: #73a242;
 }
 
 .stats .avatar-6 {
-    background: #73A242;
+    background: #73a242;
 }
 
 .stats .img-block .image {
@@ -523,7 +528,7 @@ a {
 .stats .info .desc {
     width: 309px;
     margin-top: 20px;
-    color: #5A6473;
+    color: #5a6473;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.88;
@@ -542,12 +547,11 @@ a {
 }
 
 .stats .qty-desc {
-    color: #7B8087;
+    color: #7b8087;
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 20px;
 }
-
 
 /*================== subscription ===================*/
 
@@ -571,7 +575,7 @@ a {
 }
 
 .subscription .sub-title {
-    color: #FFF;
+    color: #fff;
     font-size: 3.5rem;
     font-weight: 600;
     line-height: 1.5;
@@ -579,7 +583,7 @@ a {
 
 .subscription .desc {
     margin-top: 20px;
-    color: #FFF;
+    color: #fff;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.88;
@@ -599,7 +603,6 @@ a {
     right: 221px;
 }
 
-
 /* footer */
 
 .footer {
@@ -616,7 +619,7 @@ a {
 }
 
 .footer .heading {
-    color: #1C1C1D;
+    color: #1c1c1d;
     font-family: Lato, sans-serif;
     font-size: 2rem;
     font-weight: 700;
@@ -633,7 +636,7 @@ a {
 
 .footer .item a,
 .footer .desc {
-    color: #7A7A7E;
+    color: #7a7a7e;
     font-size: 1.6rem;
     font-weight: 400;
     white-space: nowrap;
@@ -659,7 +662,7 @@ a {
     background: #f9f9f9;
 }
 
-.footer .social-link+.social-link {
+.footer .social-link + .social-link {
     margin-left: 16px;
 }
 
@@ -675,7 +678,7 @@ a {
 }
 
 .footer .copyright {
-    color: #C2C2C2;
+    color: #c2c2c2;
     font-size: 1.4rem;
     font-weight: 400;
 }
