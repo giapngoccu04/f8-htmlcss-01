@@ -10,10 +10,16 @@ html {
     font-size: 62.5%;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
+
 
 /* comnon */
 
@@ -59,6 +65,7 @@ a {
     line-height: 16px;
     letter-spacing: -0.02em;
 }
+
 
 /*========== header ========== */
 
@@ -162,6 +169,7 @@ a {
     right: calc((100vw - 1110px) / 2 - 100px);
 }
 
+
 /*============= client =============== */
 
 .clients {
@@ -201,6 +209,7 @@ a {
 .clients .images a:hover {
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
 }
+
 
 /*============= guides =============== */
 
@@ -283,6 +292,7 @@ a {
 .guide-cta .btn {
     min-width: 170px;
 }
+
 
 /*========== featured ========== */
 
@@ -385,6 +395,7 @@ a {
 .featured .item .icon:first-child {
     margin-left: 0;
 }
+
 
 /*========== stats ========== */
 
@@ -553,6 +564,7 @@ a {
     margin-top: 20px;
 }
 
+
 /*================== subscription ===================*/
 
 .subscription {
@@ -602,6 +614,7 @@ a {
     bottom: 0;
     right: 221px;
 }
+
 
 /* footer */
 
@@ -662,7 +675,7 @@ a {
     background: #f9f9f9;
 }
 
-.footer .social-link + .social-link {
+.footer .social-link+.social-link {
     margin-left: 16px;
 }
 
